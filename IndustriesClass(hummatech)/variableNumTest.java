@@ -1,4 +1,4 @@
-public class variableNumerik {
+public class variableNumTest {
     public static void main(String[] args) {
         // ==================== VARIABEL SESUAI NOMINAL ====================
         
@@ -67,3 +67,4 @@ public class variableNumerik {
         System.out.println("jarakSekolah (double): " + ((Object)jarakSekolah).getClass().getSimpleName());
     }
 }
+
