@@ -31,17 +31,25 @@ public class diskon {
 
         if (totalb > uang) {
             System.out.println("uang anda kurang");
-            double tambahan = totalb - uang;
-            System.out.println("Uang anda kurang" + tambahan);
+            while (totalb>uang){
+                double tambahan = totalb - uang;
+                System.out.println("Uang anda kurang " + tambahan);
+                System.out.print("masukan uang tambahan: ");
+                double tambahanUang = a.nextDouble();
+                uang += tambahanUang;{
+                
+                
+            }
+        }
         } else if (totalb < uang) {
             System.out.println("uang anda lebih");
             double kembalian = uang - totalb;
             System.out.println("kembaliannya " + kembalian);
-            System.out.println("terimaksih telah berbelanja");
         } else {
-            System.out.println("uang pas");
-            System.out.println("terimaksih telah berbelanja");
+            
+            
         }
-
+        System.out.println("uang pas");
+        System.out.println("terimaksih telah berbelanja");
     }
 }
